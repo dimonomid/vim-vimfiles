@@ -536,7 +536,7 @@ function! AutoPairsInit()
   if g:AutoPairsMapBS
     " Use <C-R> instead of <expr> for issue #14 sometimes press BS output strange words
     "COMMENTED_BS: disabled backspace on purpose, to get used to C-H
-    "execute 'inoremap <buffer> <silent> <BS> <C-R>=AutoPairsDelete()<CR>'
+    execute 'inoremap <buffer> <silent> <BS> <C-R>=AutoPairsDelete()<CR>'
     execute 'inoremap <buffer> <silent> <C-H> <C-R>=AutoPairsDelete()<CR>'
   end
 
