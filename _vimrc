@@ -744,6 +744,11 @@ autocmd! BufNewFile *vimperatorrc* set filetype=vim
 autocmd! BufRead    *pentadactylrc* set filetype=vim
 autocmd! BufNewFile *pentadactylrc* set filetype=vim
 
+" ----------- vifm filetype ----------
+
+autocmd! BufRead    vifmrc   set filetype=vim
+autocmd! BufRead    *.vifm   set filetype=vim
+
 " When switching buffers, preserve window view.
 if v:version >= 700
    "au BufLeave * let b:winview = winsaveview() | call confirm("saved ".expand('%')." ".b:winview['topline'])
