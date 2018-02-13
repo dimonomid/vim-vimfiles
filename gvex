@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # run gvim
-gvim --remote-silent $1
+gvim --remote-silent "$@"
 
 # on Linux Mint, if there is already instance of gvim working,
 # new file is opened in existing gvim, but gvim isn't brought to foreground.
