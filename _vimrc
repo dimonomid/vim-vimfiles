@@ -364,7 +364,7 @@ filetype plugin indent on
 if has('win32') || has('win64')
    set guifont=Consolas:h9:cRUSSIAN
 else
-   set guifont=Consolas\ 9
+   set guifont=Consolas\ 10
 endif
 "set guifont=Courier\ New\ Cyr
 "set guifont=Terminus:h12:cRUSSIAN
@@ -1584,3 +1584,5 @@ let g:go_fmt_experimental = 1
 
 let g:vimgurl_yank_register = '+'
 
+set guioptions-=r
+set guioptions-=L
