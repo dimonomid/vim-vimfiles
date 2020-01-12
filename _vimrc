@@ -1579,6 +1579,9 @@ let g:jsx_ext_required = 0
 " use mkview / loadview before and after running gofmt, so that folds state
 " gets preserved
 let g:go_fmt_experimental = 1
+let g:go_def_mode = 'godef'
+let g:go_highlight_functions = 1
+let g:go_highlight_function_calls = 1
 
 " --------------------- vim-gurl ---------------------
 
