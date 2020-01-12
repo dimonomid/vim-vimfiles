@@ -756,7 +756,10 @@ if v:version >= 700
 endif
 
 
+" make it easier to repeat last : command (e.g. a substitution): by default
+" it's @: , which requires pressing the Shift key, but we map it to just ,.
 
+nmap ,. @:
 
 " ---------- feature from vimbits.com -----------
 
